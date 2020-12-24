@@ -72,6 +72,7 @@ public final class HelloFX extends Application {
 
     }
 
+    // copying and saving the slp file to the db handled here
     private void copyFile(File file) {
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");

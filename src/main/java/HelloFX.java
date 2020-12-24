@@ -77,11 +77,12 @@ public final class HelloFX extends Application {
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
             int lastId = slpDbOperations.selectLastEntry() + 1; // get the id of the last added slp file to determine new file name
-            File dest = new File("src/main/resources/slp/"+lastId);
+            File dest = new File("src/main/resources/slp/"+lastId+".slp");
             Files.copy(file.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);  // copy slp file to internal directory
-            slpDbOperations.insertSlp(slpDbOperations.slpCheckSum(messageDigest,"src/main/resources/slp/"+lastId));
+            Thread.sleep(5000);
+            slpDbOperations.insertSlp(slpDbOperations.slpCheckSum(messageDigest,"src/main/resources/slp/"+lastId+".slp"));
 
-        } catch (IOException | NoSuchAlgorithmException ex) {
+        } catch (IOException | NoSuchAlgorithmException | InterruptedException ex) {
             Logger.getLogger(
                     HelloFX.class.getName()).log(
                     Level.SEVERE, null, ex

@@ -21,15 +21,15 @@ public class Slp {
         return conn;
     }
 
-    public Integer selectLastEntry(){
+    public Integer selectLastEntry() {
         String sql = "SELECT * FROM slp ORDER BY id DESC LIMIT 1";
         Integer last_id = null;
 
 
         try {
             Connection conn = this.connect();
-            Statement stmt  = conn.createStatement();
-            ResultSet rs    = stmt.executeQuery(sql);
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(sql);
 
             // loop through the result set
             while (rs.next()) {
@@ -48,7 +48,7 @@ public class Slp {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         String ts = sdf.format(timestamp);
 
-        try{
+        try {
             Connection conn = this.connect();
             PreparedStatement pstmt = conn.prepareStatement(sql);
             // map values to insert statement
@@ -60,6 +60,14 @@ public class Slp {
         }
     }
 
+    /**
+     * generates a checksum when given a hashing algorithm and a file to be hashed
+     *
+     * @param digest        provides applications the functionality of a message digest algorithm, such as SHA-1 or SHA-256
+     * @param fileDirectory the file location of the .slp file to be hashed
+     * @return checksum the md5 checksum of the .slp file
+     * @throws IOException
+     */
     public String slpCheckSum(MessageDigest digest, String fileDirectory) throws IOException {
         //Get file input stream for reading the file content
         FileInputStream fis = new FileInputStream(fileDirectory);
@@ -71,7 +79,7 @@ public class Slp {
         //Read file data and update in message digest
         while ((bytesCount = fis.read(byteArray)) != -1) {
             digest.update(byteArray, 0, bytesCount);
-        };
+        }
 
         //close the stream; We don't need it now.
         fis.close();
@@ -82,12 +90,41 @@ public class Slp {
         //This bytes[] has bytes in decimal format;
         //Convert it to hexadecimal format
         StringBuilder sb = new StringBuilder();
-        for(int i=0; i< bytes.length ;i++)
-        {
+        for (int i = 0; i < bytes.length; i++) {
             sb.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16).substring(1));
         }
 
         //return complete hash
         return sb.toString();
+    }
+
+    /**
+     * searches the db for an entry with a given hash, if it exists return true if not return false
+     *
+     * @param checksum the checksum to be searched to see if it already exists
+     * @return doesSlpExist true of false depending on if this checksum is present in db
+     */
+    public boolean doesSlpExist(String checksum) {
+
+        String sql = "SELECT id,slp_hash"
+                + " FROM slp WHERE slp_hash = ?";
+
+        try (Connection conn = this.connect();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+
+            // set the value
+            pstmt.setString(1, checksum);
+            //
+            ResultSet rs = pstmt.executeQuery();
+
+            // loop through the result set
+            while (rs.next()) {
+                System.out.println(rs.getInt("id"));
+                return true;
+            }
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+        return false;
     }
 }

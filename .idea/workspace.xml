@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dac0ce71-059f-4e48-be14-d642cb511920" name="Default Changelist" comment="" />
+    <list default="true" id="a26f1612-0113-413e-b4f4-5da1dd7fde8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xerial_sqlite_jdbc_3_34_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smash_thingy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HelloFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/Slp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/Slp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +39,35 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stats" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stats" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stats" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stats" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="slp: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="stats" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -26,111 +75,33 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="smash_thingy" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="smash_thingy" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1m4f0g1rGchPaSbbnI2GiaODLoJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1m8pAsJDSdhIGQCGyRpRMsWHvkN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.HelloFX">
-    <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.Database" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="smash_thingy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloFX" />
-      <module name="smash_thingy.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Slp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.Slp" />
-      <module name="smash_thingy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Slp" />
-        <item itemvalue="Application.Database" />
-        <item itemvalue="Application.HelloFX" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,12 +110,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:stats.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -156,128 +122,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dac0ce71-059f-4e48-be14-d642cb511920" name="Default Changelist" comment="" />
-      <created>1608757562070</created>
+      <changelist id="a26f1612-0113-413e-b4f4-5da1dd7fde8a" name="Default Changelist" comment="" />
+      <created>1608884931139</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608757562070</updated>
-      <workItem from="1608757567744" duration="4000000" />
-      <workItem from="1608800641067" duration="489000" />
-      <workItem from="1608807758233" duration="8697000" />
+      <updated>1608884931139</updated>
+      <workItem from="1608884932874" duration="1926000" />
     </task>
-    <task id="LOCAL-00001" summary="Basic ui to select a slp file has been created, the slp file is saved to an internal directory, then hashed and saved to the db along with the time of saving">
-      <created>1608817512218</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608817512218</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fixed error didnt include .slp file extension when copying to internal directory">
-      <created>1608818368784</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608818368784</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Basic ui to select a slp file has been created, the slp file is saved to an internal directory, then hashed and saved to the db along with the time of saving" />
-    <MESSAGE value="fixed error didnt include .slp file extension when copying to internal directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed error didnt include .slp file extension when copying to internal directory" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="154" key="#Project_Structure" timestamp="1608758132690">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state x="440" y="154" key="#Project_Structure/0.23.1680.934@0.23.1680.934" timestamp="1608758132690" />
-    <state x="440" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608813707432">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state x="440" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.934@0.23.1680.934" timestamp="1608813707432" />
-    <state x="592" y="298" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608817898276">
+    <state x="440" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608885018855">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state x="592" y="298" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.930@0.23.1680.930" timestamp="1608817898276" />
-    <state x="173" y="90" key="CommitChangelistDialog2" timestamp="1608884816994">
+    <state x="440" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.930@0.23.1680.930" timestamp="1608885018855" />
+    <state width="1638" height="248" key="GridCell.Tab.0.bottom" timestamp="1608903993244">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state x="173" y="90" key="CommitChangelistDialog2/0.23.1680.930@0.23.1680.930" timestamp="1608884816994" />
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom" timestamp="1608884784628">
+    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.930@0.23.1680.930" timestamp="1608903993244" />
+    <state width="1638" height="248" key="GridCell.Tab.0.center" timestamp="1608903993242">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state width="887" height="248" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608760248792" />
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.930@0.23.1680.930" timestamp="1608884784628" />
-    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1608817421381" />
-    <state width="1638" height="248" key="GridCell.Tab.0.center" timestamp="1608884784628">
+    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.930@0.23.1680.930" timestamp="1608903993242" />
+    <state width="1638" height="248" key="GridCell.Tab.0.left" timestamp="1608903993242">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state width="887" height="248" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608760248791" />
-    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.930@0.23.1680.930" timestamp="1608884784627" />
-    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1608817421380" />
-    <state width="1638" height="248" key="GridCell.Tab.0.left" timestamp="1608884784627">
+    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.930@0.23.1680.930" timestamp="1608903993242" />
+    <state width="1638" height="248" key="GridCell.Tab.0.right" timestamp="1608903993243">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state width="887" height="248" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608760248790" />
-    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.930@0.23.1680.930" timestamp="1608884784627" />
-    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1608817421379" />
-    <state width="1638" height="248" key="GridCell.Tab.0.right" timestamp="1608884784628">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state width="887" height="248" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608760248791" />
-    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1608884784628" />
-    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1608817421380" />
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom" timestamp="1608884784614">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom/0.23.1680.930@0.23.1680.930" timestamp="1608884784614" />
-    <state width="1638" height="308" key="GridCell.Tab.1.bottom/0.23.1680.934@0.23.1680.934" timestamp="1608816072555" />
-    <state width="1638" height="308" key="GridCell.Tab.1.center" timestamp="1608884784614">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.center/0.23.1680.930@0.23.1680.930" timestamp="1608884784614" />
-    <state width="1638" height="308" key="GridCell.Tab.1.center/0.23.1680.934@0.23.1680.934" timestamp="1608816072552" />
-    <state width="1638" height="308" key="GridCell.Tab.1.left" timestamp="1608884784614">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.left/0.23.1680.930@0.23.1680.930" timestamp="1608884784614" />
-    <state width="1638" height="308" key="GridCell.Tab.1.left/0.23.1680.934@0.23.1680.934" timestamp="1608816072552" />
-    <state width="1638" height="308" key="GridCell.Tab.1.right" timestamp="1608884784614">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state width="1638" height="308" key="GridCell.Tab.1.right/0.23.1680.930@0.23.1680.930" timestamp="1608884784614" />
-    <state width="1638" height="308" key="GridCell.Tab.1.right/0.23.1680.934@0.23.1680.934" timestamp="1608816072553" />
-    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1608812867026">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state width="234" height="457" key="HiddenNamespacesPopup/0.23.1680.934@0.23.1680.934" timestamp="1608812867026" />
-    <state x="553" y="211" key="MultipleFileMergeDialog" timestamp="1608884827317">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state x="553" y="211" key="MultipleFileMergeDialog/0.23.1680.930@0.23.1680.930" timestamp="1608884827317" />
-    <state x="440" y="228" key="Vcs.Push.Dialog.v2" timestamp="1608818430229">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state x="440" y="228" key="Vcs.Push.Dialog.v2/0.23.1680.930@0.23.1680.930" timestamp="1608818430229" />
-    <state x="576" y="180" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1608815673436">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state x="576" y="180" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1680.934@0.23.1680.934" timestamp="1608815673436" />
-    <state x="519" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1608807760974">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state x="519" y="322" key="com.intellij.ide.util.TipDialog/0.23.1680.934@0.23.1680.934" timestamp="1608807760974" />
-    <state x="506" y="124" width="816" height="729" key="find.popup" timestamp="1608811406494">
-      <screen x="0" y="23" width="1680" height="934" />
-    </state>
-    <state x="506" y="124" width="816" height="729" key="find.popup/0.23.1680.934@0.23.1680.934" timestamp="1608811406494" />
-    <state x="595" y="208" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608884761837">
-      <screen x="0" y="23" width="1680" height="930" />
-    </state>
-    <state x="595" y="208" key="git4idea.branch.GitSmartOperationDialog/0.23.1680.930@0.23.1680.930" timestamp="1608884761837" />
+    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1608903993243" />
   </component>
 </project>

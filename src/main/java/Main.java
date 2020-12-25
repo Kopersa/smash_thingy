@@ -22,7 +22,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
-public final class HelloFX extends Application {
+public final class Main extends Application {
 
     private Desktop desktop = Desktop.getDesktop();
     private Slp slpDbOperations = new Slp();
@@ -68,6 +68,7 @@ public final class HelloFX extends Application {
     }
 
     public static void main(String[] args) {
+        Slp slpDbOperations = new Slp();
         Application.launch(args);
 
     }
@@ -84,7 +85,7 @@ public final class HelloFX extends Application {
 
         } catch (IOException | NoSuchAlgorithmException | InterruptedException ex) {
             Logger.getLogger(
-                    HelloFX.class.getName()).log(
+                    Main.class.getName()).log(
                     Level.SEVERE, null, ex
             );
         }

@@ -1,14 +1,7 @@
 import java.awt.Desktop;
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
+import data.FileFunctions;
 import data.Slp;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -25,7 +18,8 @@ import javafx.stage.Stage;
 public final class Main extends Application {
 
     private Desktop desktop = Desktop.getDesktop();
-    private Slp slpDbOperations = new Slp();
+    private FileFunctions fileFunctions = new FileFunctions();
+
 
     @Override
     public void start(final Stage stage) {
@@ -44,7 +38,7 @@ public final class Main extends Application {
                                 fileChooser.showOpenMultipleDialog(stage);
                         if (list != null) {
                             for (File file : list) {
-                                copyFile(file);
+                                fileFunctions.copyFile(file);
                             }
                         }
                     }
@@ -73,21 +67,5 @@ public final class Main extends Application {
 
     }
 
-    // copying and saving the slp file to the db handled here
-    private void copyFile(File file) {
-        try {
-            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
-            int lastId = slpDbOperations.selectLastEntry() + 1; // get the id of the last added slp file to determine new file name
-            File dest = new File("src/main/resources/slp/"+lastId+".slp");
-            Files.copy(file.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);  // copy slp file to internal directory
-            Thread.sleep(5000);
-            slpDbOperations.insertSlp(slpDbOperations.slpCheckSum(messageDigest,"src/main/resources/slp/"+lastId+".slp"));
 
-        } catch (IOException | NoSuchAlgorithmException | InterruptedException ex) {
-            Logger.getLogger(
-                    Main.class.getName()).log(
-                    Level.SEVERE, null, ex
-            );
-        }
-    }
 }

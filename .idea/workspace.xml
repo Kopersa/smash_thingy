@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26f1612-0113-413e-b4f4-5da1dd7fde8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xerial_sqlite_jdbc_3_34_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/smash_thingy.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smash_thingy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/FileFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/Slp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/Slp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +58,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -110,7 +100,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:stats" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:stats" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5628a951" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -127,18 +127,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608884931139</updated>
-      <workItem from="1608884932874" duration="1926000" />
+      <workItem from="1608884932874" duration="3762000" />
     </task>
+    <task id="LOCAL-00001" summary="doesSlpExist() created, allows for searching the db for a slp file by its md5 checksum">
+      <created>1608904072999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608904072999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="doesSlpExist() created, allows for searching the db for a slp file by its md5 checksum" />
+    <option name="LAST_COMMIT_MESSAGE" value="doesSlpExist() created, allows for searching the db for a slp file by its md5 checksum" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608885018855">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="440" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.930@0.23.1680.930" timestamp="1608885018855" />
+    <state x="370" y="90" key="CommitChangelistDialog2" timestamp="1608904072749">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state x="370" y="90" key="CommitChangelistDialog2/0.23.1680.930@0.23.1680.930" timestamp="1608904072749" />
     <state width="1638" height="248" key="GridCell.Tab.0.bottom" timestamp="1608903993244">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
@@ -155,5 +171,9 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1608903993243" />
+    <state x="440" y="228" key="Vcs.Push.Dialog.v2" timestamp="1608904093656">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state x="440" y="228" key="Vcs.Push.Dialog.v2/0.23.1680.930@0.23.1680.930" timestamp="1608904093656" />
   </component>
 </project>

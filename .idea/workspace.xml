@@ -92,7 +92,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Database">
+  <component name="RunManager" selected="Application.HelloFX">
     <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.Database" />
       <module name="smash_thingy.main" />
@@ -203,10 +203,10 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="592" y="298" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.930@0.23.1680.930" timestamp="1608817898276" />
-    <state x="173" y="90" key="CommitChangelistDialog2" timestamp="1608818368630">
+    <state x="173" y="90" key="CommitChangelistDialog2" timestamp="1608884816994">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state x="173" y="90" key="CommitChangelistDialog2/0.23.1680.930@0.23.1680.930" timestamp="1608818368630" />
+    <state x="173" y="90" key="CommitChangelistDialog2/0.23.1680.930@0.23.1680.930" timestamp="1608884816994" />
     <state width="1638" height="248" key="GridCell.Tab.0.bottom" timestamp="1608884784628">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
@@ -255,10 +255,10 @@
       <screen x="0" y="23" width="1680" height="934" />
     </state>
     <state width="234" height="457" key="HiddenNamespacesPopup/0.23.1680.934@0.23.1680.934" timestamp="1608812867026" />
-    <state x="553" y="211" key="MultipleFileMergeDialog" timestamp="1608884767102">
+    <state x="553" y="211" key="MultipleFileMergeDialog" timestamp="1608884827317">
       <screen x="0" y="23" width="1680" height="930" />
     </state>
-    <state x="553" y="211" key="MultipleFileMergeDialog/0.23.1680.930@0.23.1680.930" timestamp="1608884767102" />
+    <state x="553" y="211" key="MultipleFileMergeDialog/0.23.1680.930@0.23.1680.930" timestamp="1608884827317" />
     <state x="440" y="228" key="Vcs.Push.Dialog.v2" timestamp="1608818430229">
       <screen x="0" y="23" width="1680" height="930" />
     </state>

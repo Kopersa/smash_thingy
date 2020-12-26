@@ -6,7 +6,10 @@ public class Database {
 
     static String urlPrefix = "jdbc:sqlite:src/main/resources/";
 
-
+    /**
+     * used top create a fresh instance of a sqlite3 database
+     * @param fileName the name of the database to be created
+     */
     public static void createNewDatabase(String fileName) {
 
         String url = urlPrefix + fileName;
@@ -24,6 +27,10 @@ public class Database {
             System.out.println(e.getMessage());
         }
     }
+
+    /**
+     * used to create the slp table in the database intended to keep track of the .slp files being managed by the application
+     */
 
     public static void createSlpTable() {
         // SQLite connection string

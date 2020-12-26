@@ -14,8 +14,14 @@ public class FileFunctions {
     private String fileLocation = "src/main/resources/slp/";
     private String fileExtension = ".slp";
 
-    // copying and saving the slp file to the db handled here
+    /**
+     * Copies a given .slp file to an internal project directory.  After copying the file is hashed and an entry into the
+     * slp table in the database occurs for the copied file
+     * @param file the directory of the .slp file to be copied
+     */
     public void copyFile(File file) {
+        //TODO: Add validation to check if the file is a .slp
+        //TODO: Move to its own thread
         try {
             int lastId = slpDbOperations.selectLastEntry() + 1; // get the id of the last added slp file to determine new file name
             MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");

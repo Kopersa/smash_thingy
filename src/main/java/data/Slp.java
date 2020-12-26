@@ -8,7 +8,10 @@ import java.text.SimpleDateFormat;
 
 public class Slp {
 
-
+    /**
+     * establishes a connection to the SQLITE3 database, to be used when preforming CRUD operations
+     * @return connection to the database
+     */
     private Connection connect() {
         // SQLite connection string
         String url = "jdbc:sqlite:src/main/resources/stats.db";
@@ -21,6 +24,10 @@ public class Slp {
         return conn;
     }
 
+    /**
+     * selects the last entry in the slp table, intended to be used to determine the name for a newly copied .slp file
+     * @return the id of the last entry in the slp table
+     */
     public Integer selectLastEntry() {
         String sql = "SELECT * FROM slp ORDER BY id DESC LIMIT 1";
         Integer last_id = null;
@@ -40,6 +47,11 @@ public class Slp {
         }
         return last_id;
     }
+
+    /**
+     * inserts an entry into the slp table, logging an instance of a .slp file that has been copied to internal directory
+     * @param slpHash the md5 hash of a given .slp file
+     */
 
     public void insertSlp(String slpHash) {
         String sql = "INSERT INTO slp(slp_hash, date_added) VALUES(?,?)";
